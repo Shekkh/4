@@ -511,7 +511,7 @@ ownerbaqer_id = 5642852428
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerbaqer_id :
-        order = await event.reply('** نعم شغال  الصيد وصل لـ({trys[0]}) **')
+        order = await event.reply('** نعم بعده شغال استاذ**')
 	
 @eighthon.on(events.NewMessage(outgoing=True, pattern=r"\.فك حظر"))
 async def _(event):
